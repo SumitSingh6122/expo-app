@@ -8,7 +8,7 @@ const WebScreen = () => {
   return (
     <View style={styles.container}>
       <WebView
-        source={{ uri: 'http://localhost:3000' }}
+        source={{ uri: 'https://next-assignment-firebase.vercel.app/' }}
         style={{ flex: 1 }}
       />
     </View>
